@@ -1,5 +1,0 @@
-# Base image
-FROM nginx
-
-
-
