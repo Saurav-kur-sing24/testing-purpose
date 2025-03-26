@@ -21,6 +21,8 @@ jobs:
       # Step 3: Build the Docker Image with a Custom Name
       - name: Build Docker Image
         run: docker build -t my-image:latest .
+      - name: List Docker Images
+        run: docker images
 
       # Step 4: Tag the Image for Docker Hub
       - name: Tag Docker Image
