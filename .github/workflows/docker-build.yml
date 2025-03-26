@@ -25,7 +25,7 @@ jobs:
         run: docker images
 
       - name: Debug Secret Retrieval
-       run: echo "${{ secrets.DOCKER_USERNAME }}"
+        run: echo "${{ secrets.DOCKER_USERNAME }}"
 
 
       # Step 4: Tag the Image for Docker Hub
