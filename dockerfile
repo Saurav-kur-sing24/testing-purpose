@@ -1,1 +1,1 @@
-FROM nginx:stable-perl
+FROM nginx:latest
