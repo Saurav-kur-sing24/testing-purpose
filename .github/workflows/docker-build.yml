@@ -24,11 +24,11 @@ jobs:
 
       # Step 4: Tag the Existing Image for Docker Hub
       - name: Tag Docker Image
-        run: docker tag my-image:latest ${{ secrets.DOCKER_USERNAME }}/testing:latest
+        run: docker tag my-image:latest sauravkursing/testing:latest
 
       # Step 5: Push the Tagged Image to Docker Hub
       - name: Push Docker Image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/testing:latest
+        run: docker push sauravkursing/testing:latest
 
       # Step 6: List Docker Images (Optional Debugging)
       - name: List Docker Images
